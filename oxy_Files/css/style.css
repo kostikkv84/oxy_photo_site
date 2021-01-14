@@ -1,0 +1,165 @@
+body {
+ 	color: #333;
+	font-family: Lato;
+  	font-weight: 300;
+ 	text-align: center;
+  	background: #333;
+
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container > .btn {
+  margin: 60px;
+  padding: 20px 40px;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+.modal {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+  top: 100%;
+  position: fixed;
+  left: 0;
+  text-align: left;
+}
+.modal .header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  font: 300 24px Lato;
+  position: relative;
+}
+.modal .body {
+  padding: 20px;
+  font: 300 16px Lato;
+}
+
+.btn {
+  background: linear-gradient(to right, #dce35b, #45b649);
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 25px;
+  margin: 20px 0;
+  color: #fff;
+  position: relative;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container.modal-open .modal {
+  top: 0;
+}
+
+/* ________________________________*/
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.section1 {
+    height: 400px;
+    padding: 2rem;
+    position: relative;
+	background:url(img/image1.jpg);
+	background-clip: border-box;
+	background-origin: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.section1 h1 {
+    color: #fff;
+    font-size: 450%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.section2 {
+	text-align: center;
+    padding: 2rem;
+	background:#e0eeff;
+	height: auto;
+}
+
+.section3 {
+	text-align: center;
+    padding: 2rem;
+	background:#02D9A4;
+	height: auto;
+}
+
+.section4 {
+	text-align: center;
+    padding: 2rem;
+	background:#0FC8F9;
+	height: auto;
+}
+
+.section5 {
+	text-align: center;
+    padding: 2rem;
+	background:#B54C8B;
+	height: auto;
+}
+
+.section6 {
+	text-align: center;
+    padding: 2rem;
+	background:#E11574;
+	height: auto;
+}
+
+.section7 {
+	text-align: center;
+    padding: 2rem;
+	background:#988FD9;
+	height: auto;
+}
+
+.section8 {
+	text-align: center;
+    padding: 2rem;
+	background:#53E2CE;
+	height: auto;
+}
+
+.section9 {
+	text-align: center;
+    padding: 2rem;
+	background:#FFB796;
+	height: auto;
+}
+
+.section10 {
+	text-align: center;
+    padding: 2rem;
+	background:#E894C5;
+	height: auto;
+}
+
+.label {
+    box-sizing: border-box;
+    color: #111;
+    font-size: 150%;
+    height: 2rem;
+    margin-bottom: 40px;
+    padding: 0.375rem;
+	text-align: center;
+}
+*[class^="revealator"] {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto 15px;
+    width: 26%;
+}
+

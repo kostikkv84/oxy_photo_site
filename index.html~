@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta	name="viewport" content="width=device-width, initial-scale=1">
+	<title>OxyBony</title>
+<!-- Bootstrap 4.3 scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+
+
+      <link rel="stylesheet" href="css/style.css">     
+      <link rel="stylesheet" href="css/fm.revealator.jquery.css">
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/fm.revealator.jquery.js"></script>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/owl.carousel.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+
+<script src="js/script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Marck+Script|Montserrat:400,400i,500,500i,600,700,700i|Playfair+Display:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">  
+</head>
+<body>
+
+	<header class="header">
+		<div class="main-header">
+			<div class="main-menu main-menu-hide">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="logo-text d-flex justify-content-center">
+								<img src="img/fox.logo.png" alt="fox-logo" class="fox-logo">
+							</div>
+													
+						</div>
+
+						<div class="col-lg-5">
+							<nav>
+								<ul class="menu d-flex justify-content-center">
+									<li class="menu-item">
+										<a class="scrollto"  href="#main-page">Главная</a>
+									</li>
+									<li class="menu-item">
+										<a class="scrollto" href="#portfolio">Портфолио</a>
+									</li>
+									<li class="menu-item">
+										<a class="scrollto" href="#certificate">сертификат</a>
+									</li>
+									<li class="menu-item">
+										<a class="scrollto" href="#contacts-scroll">контакты</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="col-lg-3">
+							<div class="call-number">
+								<h3>+7 (978) 015-68-08
+								</h1>
+								<ul class="social d-flex justify-content-center">
+									<li class="socials-item socials-item-vk">
+										<a href="https://vk.com/fotograf_oksanabelous" target="_blank"></a>
+									</li>
+									<li class="socials-item socials-item-ok">
+										<a href="https://www.ok.ru/oksana.belous" target="_blank"></a>
+									</li>
+									<li class="socials-item socials-item-inst">
+										<a href="https://www.instagram.com/oxybony" target="_blank"></a>
+									</li>
+								</ul>
+							
+							</div>
+
+						</div>
+						
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<section class="citata1 citata-font" id="main-page" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<p></p>
+					</div>
+					<div class="col-lg-6 d-flex justify-content-center">
+						<p class="citata-font top-hide-three">
+							" На фотографии всегда есть еще один человек - фотограф."
+						</p>
+						<div class="col-lg-2">
+							<p></p>
+					</div>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="text-about-oxy">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="title top-hide ml-auto mr-auto">
+							<p class="title-etc">Рыжая девушка из солнечной Ялты открыла для себя мир фотографии, случайно попав на одну из киевских фотовстреч в качестве модели. Получив 
+							таким образом бесценный опыт работы «в кадре и за кадром», Оксана перешла от позирования непосредственно к фотосъемке, чем и продолжает успешно заниматься уже 
+							больше 8 лет.</p>
+							<p class="title-etc"> Основной профиль - <span>семейное фото</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="camera-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="camera top-hide-two">
+							<img src="img/camera-img.png" alt="camera">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>>
+		
+	</header>
+	<section class="citata2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="citata-font">" Фотография - это искуство застывшего времени...возможность хранить эмоции и чувства внутри кадра " - Мешак Отиено
+						</p>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="accordeon">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+					
+						<div class="ia-container">
+	   			 <figure>
+	       			 <img src="img/accordeon/slide1.jpg" alt="image01" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>ОН</span></figcaption>
+
+
+	       	 	<figure>
+	           		 <img src="img/accordeon/slide2.jpg" alt="image02" />
+                 	<input type="radio" name="radio-set" checked="checked"/>
+	            <figcaption><span>ОНА</span></figcaption>
+
+	            <figure>
+ 					<img src="img/accordeon/slide3.jpg" alt="image03" />
+                	 <input type="radio" name="radio-set" checked="checked" />
+	            <figcaption><span>LoveStory</span></figcaption>
+
+	             <figure>
+ 					<img src="img/accordeon/slide4.jpg" alt="image04" />
+                	 <input type="radio" name="radio-set" checked="checked" />
+	            	<figcaption><span>Свадьба</span></figcaption>
+
+	             <figure>
+ 					<img src="img/accordeon/slide5.jpg" alt="image05" />
+                 	<input type="radio" name="radio-set" checked="checked"/>
+	            	<figcaption><span>В ожидании чуда</span></figcaption>
+
+	             <figure>
+					<img src="img/accordeon/slide6.jpg" alt="image6" />
+                 	<input type="radio" name="radio-set" checked="checked"/>
+	            	<figcaption><span>Выписка</span></figcaption>
+	            
+	       		 <figure>
+	       			 <img src="img/accordeon/slide7.jpg" alt="image7" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Крестины</span></figcaption>  
+	       		 <figure>
+
+	       			 <img src="img/accordeon/slide8.jpg" alt="image8" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+	       		<figure>
+	       			 <img src="img/accordeon/slide9.jpg" alt="image9" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+	                   
+					<figure>
+	   	       		 <img src="img/accordeon/slide10.jpg" alt="image10" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+
+					<figure>
+	   	       			 <img src="img/accordeon/slide11.jpg" alt="image11" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+
+					<figure>
+	   	       		<img src="img/accordeon/slide12.jpg" alt="image12" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+
+					<figure>
+	       			  <img src="img/accordeon/slide13.jpg" alt="image13" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+					
+					<figure>
+	       			  <img src="img/accordeon/slide14.jpg" alt="image14" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+	       			
+					<figure>
+	       			 <img src="img/accordeon/slide15.jpg" alt="image15" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+	       					
+	       			<figure>
+	       			 <img src="img/accordeon/slide16.jpg" alt="image16" />
+	      			  <input type="radio" name="radio-set" checked="checked" />
+	       			 <figcaption><span>Настоящие цвета</span></figcaption> 
+	       					 </figure>
+	       					 </figure>
+	       					 </figure>	
+	       					 </figure>
+	                  		 </figure>
+	                  		 </figure>
+	           				 </figure>
+		           			 </figure>
+    			 			 </figure>
+	           				 </figure>
+	           				 </figure>
+			 				 </figure>
+ 						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="citata3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">			
+						<div class="photo-pic2">
+							<img class="photo-flash" src="img/camera-flash.jpg" alt="photo-flash">						
+						</div>			
+							<p></p>								
+					</div>
+					<div class="col-lg-6 d-flex justify-content-center">
+						<p class="citata-font">
+							" Многие фотографы считают, что если они купят лучшую камеру, то смогут снимать лучшие фотографии. Лучшая камера не будет работать за вас, если в вашей голове или в серде ничего нет " - Арнольд Ньюман
+						</p>
+					</div>
+						<div class="col-lg-1">
+							<p></p>
+						</div>
+				</div>
+			</div>
+		</section>
+	<!--<section class="portfolio-title revealator-slideup  revealator-duration10">-->
+	<section class="portfolio-title">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="pt">
+					
+						<h1 id=portfolio>Портфолио</h1>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="portfolio d-flex ml-auto mr-auto">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="portfolio-preview">
+						<div class="video-preview">
+									<video width="720" height="520" controls="controls" poster="img/video-prev-logo.jpg">
+									<!--<source src="dir/film.mp4" type="video/mp4">
+									<source src="dir/film.ogv" type="video/ogg"> -->
+									<source src="img/video-portfolio.webm" type="video/webm" codecs="theora, vorbis">
+									</video>
+								</div>
+					</div>
+			
+				</div>
+
+			
+						
+				<div class="col-lg-2">
+					<div class="portfolio-preview">
+							<a href="photosessions.html" target="_blank">
+								<img src="img/portf1.png" alt="phohosessions" class="preview">
+								
+							</a>
+								<p class="text-about">Фотосессии</p>
+							<a href="family-sessions.html" target="_blank">
+								<img src="img/portf5.png" alt="family-photo" class="preview">
+							</a>
+								<p class="text-about">семейные</p>
+
+							<a href="wedding.html" target="_blank">	
+								<img src="img/portf6.png" alt="weddings" class="preview">
+							</a>
+
+								<p class="text-about">свадебные</p>
+					</div>
+			
+				</div>
+				<div class="col-lg-2">
+					<div class="portfolio-preview">
+						
+							<a href="deti-gallery.html" target="_blank">
+								<img src="img/portf2.png" alt="kids_phohosessions" class="preview">
+							</a>
+								<p class="text-about">Детские</p>
+
+							<a href="lovestory.html" target="_blank">
+								<img src="img/portf3.png" alt="lovestory" class="preview">
+							</a>
+								<p class="text-about">Лавстори</p>
+							<a href="art_sessions.html" target="_blank">
+								<img src="img/portf4.png" alt="art_sessions" class="preview">
+							</a>
+								<p class="text-about">Постановочные</p>
+					</div>
+			
+				</div>			
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="contacs-bloc ">
+					
+
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="citata4 citata-font" id="main-page" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1">
+					  <div class="lamp-image"> 
+					 	 <img  src="img/stand-img.png" alt="">	
+					  </div>
+						
+					</div>
+					<div class="col-lg-6 citata4-bloc d-flex justify-content-center">
+						<p id="certificate" class="citata-font ">
+							"  Фотография занимает всего лишь мгновение, но в нем соединилось все и время и место и прошлое и настоящее  "
+						</p>
+						
+					</div>
+					<div class="col-lg-1">
+					
+					</div>
+					<div class="col-lg-4">
+						<div class="sertificate-img">	
+							<a href="#openModal">
+							<img class="certificate" src="img/Certificate.png" alt="сертификат на фотосъемку">
+							</a>
+							<div id="openModal" class="modalDialog">
+	    						<div>
+	       						 <a href="#close" title="Закрыть" class="close">X</a>
+     						   <h3>Как получить подарочный сертификат и что с ним делать?</h3>
+	      						  <p>1. Если вы захотите сделать подарок дорогому вам человеку, то я могу предложить вам оригинальный подарок в виде подарочного сертификата на фотосъемку в любой удобный для вас день.</p>	      						
+	       						 <p>Для этого вам достаточно позвонить мне по номеру <span class="tel-nomber">+7 978 015-68-08</span></p>
+	       						 <img class="certificate-preview" src="img/cerificat-full.png" alt="сертификат">
+								<p>2. Воспользоваться сертификатом можно в течении 1 месяца. </p>
+								<p>3. По возможности необходимо предварительно, желательно дней за 5, предупреждать о фотосессии для того чтобы успеть подготовить реквизит, оборудование и успеть обговорить место, время и другие аспекты.</p>
+
+	   						 	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="cooperation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1"> 
+				  
+						
+				</div>
+				<div class="col-lg-2">  
+						<div class="button">
+  							<a class="button-cooperation d-flex justify-content-end" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  									  Узнать подробней
+  							</a>
+
+						</div>
+						<div class="collapse" id="collapseExample">
+ 							 <div class="card card-body">
+ 									<p class="cooperation-info">
+ 										  С целью пополнения портфолио необычными (!) и интересными фотографиями, предлагаю сотрудничество визажисту/стилисту, готовому к творческим экспериментам и развитию в этой сфере.
+ 										  Вы создаете интересный, возможно нестандартный (!) образ, мы это снимаем.
+	 							  </p> 
+ 									<p class="cooperation-info"><span>+7 (978) 015-68-08 </span> - Оксана</p>  
+						    </div>
+					  </div>
+				</div>	
+				
+				<div class="col-lg-9">
+					<div class="cooperation-visagiste d-flex justify-content-start">
+						<p>- предложение к сотрудничеству для визажистов
+						</p>
+					</div>
+					
+				</div>
+			
+			</div>
+
+</div>		</div>
+   </section>
+
+	
+	<footer class="footer">
+		<div class="social-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="contacts-footer">
+							<ul class="social d-flex justify-content-center">
+								<li >
+									<a href="https://vk.com/fotograf_oksanabelous" target="_blank">
+									<img class="social-icons" src="img/vklogo-small.png" alt="Я вконтакте">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.ok.ru/oksana.belous" target="_blank">
+									<img class="social-icons" src="img/ok-logo-small.jpg" alt="Я в одноклассниках">
+									</a>
+
+								</li>
+								<li>
+									<a href="https://www.viber.com/ru" target="_blank">
+									<img class="social-icons" src="img/viber-logo-small.png" alt="Мой вайбер ">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/oxybony" target="_blank">
+									<img src="img/instagram-logo-small.png" alt="Мой инстаграм">
+									
+									</a>
+								</li>
+							</ul>
+							<p>© Оксана Белоус - OXYBONY </p>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="contacts-footer d-flex justify-content-center">
+							<p></p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="developer-footer d-flex">
+							<p id=contacts-scroll>Дизайн и верстка сайта - </p> 
+							
+							<p><a href="#"> koskv</a></p>
+							
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- Скрипт плавной прокрутки к месту в сайте--> 
+<script>
+jQuery(document).ready(function() {
+jQuery("a.scrollto").click(function () {
+elementClick = jQuery(this).attr("href")
+/* отступ от верха на 100 px чтоы не мешало меню*/
+destination = jQuery(elementClick).offset().top -100; 
+jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+return false;
+});
+});
+</script>
+
+
+</body>
+</html>

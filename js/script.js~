@@ -1,0 +1,66 @@
+
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop()>525){
+		//	document.querySelector('.main-menu').style.opacity = '1';
+			 document.querySelector('.main-menu').style.background = 'rgba(235, 235, 235, 1)';
+
+			//$('.main-menu').fadeOut(1500)
+		}else{
+			document.querySelector('.main-menu').style.background = 'rgba(235, 235, 235, 0.7';
+	//		 document.querySelector('.main-menu').style.opacity = '1';
+			//$('.main-menu').fadeIn(700)
+		}
+	});
+});
+
+/*
+window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop; // Получаем положение скролла
+
+  if(scrolled > 1000){
+    // Если прокрутка есть, то делаем блок видимым
+    document.querySelector('.main-menu').style.opacity = '1';
+    document.querySelector('.main-menu').style.backgroundcolor = "#ebebeb";
+  }else{
+    // Если нет, то делаем его прозрачным
+    document.querySelector('.main-menu').style.opacity = '0.7';
+
+  };
+};
+ */
+
+$(window).scroll(function(){
+    $(".top-hide").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+/*$(window).scroll(function(){
+    $(".top-hide-two").css("opacity", 1 - $(window).scrollTop() / 700);
+  });*/
+
+$(window).scroll(function(){
+    $(".top-hide-three").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
+
+/*$(window).scroll(function(){
+    $(".main-menu").css("opacity", 1 - $(window).scrollTop() / 700);
+  });*/
+	
+
+
+
+/* нажатие на кнопку cooperation */
+$('.js-click-modal').click(function(){
+  $('.button1').addClass('modal-open');
+});
+
+$('.js-close-modal').click(function(){
+  $('.button1').removeClass('modal-open');
+});
+
+/* END нажатие на кнопку cooperation*/
+
+$(".extremum-click").click(function () {
+      $(this).siblings(".extremum-slide").slideToggle("slow");
+    });
